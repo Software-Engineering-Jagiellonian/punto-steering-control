@@ -1,0 +1,10 @@
+^C:\USERS\OLIWI\PROJECTS\PUNTO-STEERING-CONTROL1\PUNTO-STEERING-CONTROL\PUNTO-STEERING-CONTROL\BUILD\CMAKEFILES\5CB3435545DA916F9F832924C69F6A51\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/oliwi/projects/punto-steering-control1/punto-steering-control/punto-steering-control -BC:/Users/oliwi/projects/punto-steering-control1/punto-steering-control/punto-steering-control/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/oliwi/projects/punto-steering-control1/punto-steering-control/punto-steering-control/build/punto-steering-control.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
