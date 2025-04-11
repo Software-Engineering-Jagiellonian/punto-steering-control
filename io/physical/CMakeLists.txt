@@ -1,7 +1,8 @@
- 
-file(GLOB ELECTRONICS_LAYER_SRC
+file(GLOB SOURCES
     "*.cpp"
     "*.h"
+    "*.txt"
 )
 
-add_library(electronics_layer STATIC ${ELECTRONICS_LAYER_SRC})
+add_library(physical STATIC ${SOURCES})
+target_include_directories(physical PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

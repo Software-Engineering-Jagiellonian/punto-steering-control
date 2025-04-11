@@ -1,2 +1,9 @@
-file(GLOB INTERFACE_SRC "*.cpp" "*.h")
-add_library(interface STATIC ${INTERFACE_SRC})
+add_library(logic STATIC
+    CMakeLists.txt
+    DataProcessor.h
+    GamepadControlProcessor.cpp
+    GamepadControlProcessor.h
+    main.cpp
+)
+target_include_directories(logic PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_link_libraries(logic data io)

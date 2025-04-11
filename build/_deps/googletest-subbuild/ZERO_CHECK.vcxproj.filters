@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\oliwi\projects\punto-steering-control1\punto-steering-control\punto-steering-control\build\_deps\googletest-subbuild\CMakeFiles\0a81c07c1a081c9e360581ca42f7e8e8\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3165E45D-6910-3B1B-A7BF-A6DF8C3C4844}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

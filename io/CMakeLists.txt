@@ -1,3 +1,12 @@
-file(GLOB IO_SRC "*.cpp" "*.h")
-add_library(io STATIC ${IO_SRC})
-add_executable(program main.cpp ${IO_SRC})
+add_subdirectory(interface)
+add_subdirectory(physical)
+
+add_library(io STATIC
+    CMakeLists.txt
+    Input.h
+    IOCoordinator.cpp
+    IOCoordinator.h
+    Output.h
+)
+
+target_include_directories(io PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
