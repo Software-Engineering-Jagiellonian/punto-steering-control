@@ -1,7 +1,3 @@
- 
-file(GLOB ELECTRONICS_LAYER_SRC
-    "*.cpp"
-    "*.h"
-)
-
-add_library(electronics_layer STATIC ${ELECTRONICS_LAYER_SRC})
+cmake_minimum_required(VERSION 3.10)
+project(physical)
+add_executable(physical GasOutWrapper.cpp WheelOutController.cpp WheelInWrapper.cpp OtherSensorsInController.cpp GasOutController.cpp WheelInController.cpp OtherSensorsInWrapper.cpp WheelInData.cpp BrakeOutWrapper.cpp WheelOutWrapper.cpp BrakeOutController.cpp)

@@ -1,3 +1,3 @@
 cmake_minimum_required(VERSION 3.10)
 project(io)
-add_executable(io IOCoordinator.cpp)
+add_executable(io out_tests.cpp)

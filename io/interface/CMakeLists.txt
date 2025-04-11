@@ -1,2 +1,3 @@
-file(GLOB INTERFACE_SRC "*.cpp" "*.h")
-add_library(interface STATIC ${INTERFACE_SRC})
+cmake_minimum_required(VERSION 3.10)
+project(interface)
+add_executable(interface GamepadWrapper.cpp GamepadData.cpp GamepadController.cpp)
