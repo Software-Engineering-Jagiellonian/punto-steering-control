@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
-
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 project(punto-steering-control)
 
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Add subdirectories
 add_subdirectory(data)
@@ -26,9 +26,24 @@ FetchContent_MakeAvailable(googletest)
 FetchContent_Declare(
   json
   GIT_REPOSITORY https://github.com/nlohmann/json.git
-  GIT_TAG v3.11.2  # or the latest stable version
+  GIT_TAG v3.12.0  # or the latest stable version
 )
 FetchContent_MakeAvailable(json)
 
 # Enable testing
 enable_testing()
+
+add_executable(standard_tests
+  tests/main.cpp
+  tests/outtests.cpp
+)
+
+target_link_libraries(standard_tests
+  gtest
+  gtest_main
+  nlohmann_json::nlohmann_json
+)
+
+include(GoogleTest)
+
+gtest_discover_tests(standard_tests)

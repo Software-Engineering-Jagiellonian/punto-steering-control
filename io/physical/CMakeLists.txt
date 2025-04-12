@@ -1,3 +1,3 @@
 cmake_minimum_required(VERSION 3.10)
 project(physical)
-add_executable(physical GasOutWrapper.cpp WheelOutController.cpp WheelInWrapper.cpp OtherSensorsInController.cpp GasOutController.cpp WheelInController.cpp OtherSensorsInWrapper.cpp WheelInData.cpp BrakeOutWrapper.cpp WheelOutWrapper.cpp BrakeOutController.cpp)
+add_executable(physical BrakeOutController.cpp BrakeOutWrapper.cpp GasOutController.cpp GasOutWrapper.cpp OtherSensorsInController.cpp OtherSensorsInWrapper.cpp WheelInController.cpp WheelInData.cpp WheelInWrapper.cpp WheelOutController.cpp WheelOutWrapper.cpp)
