@@ -1,12 +1,4 @@
-add_subdirectory(interface)
-add_subdirectory(physical)
+cmake_minimum_required(VERSION 3.10)
+project(io)
+add_executable(io IOCoordinator.cpp)
 
-add_library(io STATIC
-    CMakeLists.txt
-    Input.h
-    IOCoordinator.cpp
-    IOCoordinator.h
-    Output.h
-)
-
-target_include_directories(io PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

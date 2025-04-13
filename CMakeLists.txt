@@ -1,13 +1,22 @@
 cmake_minimum_required(VERSION 3.10)
+
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 project(punto-steering-control)
 
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreadedDebugDLL" CACHE STRING "" FORCE)
-set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+# Add subdirectories
+add_subdirectory(data)
+add_subdirectory(io)
+add_subdirectory(logic)
+add_subdirectory(tests)
 
+# Include FetchContent
 
 include(FetchContent)
+
+# Fetch GoogleTest
 FetchContent_Declare(
   googletest
   GIT_REPOSITORY https://github.com/google/googletest.git
@@ -15,25 +24,29 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(googletest)
 
-add_subdirectory(data)
-add_subdirectory(io)
-add_subdirectory(logic)
-add_subdirectory(tests)
-
-target_include_directories(data PUBLIC
-    ${CMAKE_SOURCE_DIR}/data
+# Fetch nlohmann/json
+FetchContent_Declare(
+  json
+  GIT_REPOSITORY https://github.com/nlohmann/json.git
+  GIT_TAG v3.12.0  # or the latest stable version
 )
+FetchContent_MakeAvailable(json)
 
-target_include_directories(io PUBLIC
-    ${CMAKE_SOURCE_DIR}/io
-    ${CMAKE_SOURCE_DIR}/io/interface
-    ${CMAKE_SOURCE_DIR}/io/physical
-)
-
-target_include_directories(logic PUBLIC
-    ${CMAKE_SOURCE_DIR}/logic
-)
+# Enable testing
 enable_testing()
 
+add_executable(standard_tests
+  tests/main.cpp
+  tests/outtests.cpp
+)
 
+target_link_libraries(standard_tests
+  gtest
+  gtest_main
+  nlohmann_json::nlohmann_json
+)
+
+include(GoogleTest)
+
+gtest_discover_tests(standard_tests)
 
