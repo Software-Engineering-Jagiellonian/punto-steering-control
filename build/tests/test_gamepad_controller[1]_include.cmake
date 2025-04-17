@@ -1,5 +1,0 @@
-if(EXISTS "C:/Users/oliwi/projects/punto-steering-control1/punto-steering-control/punto-steering-control/build/tests/test_gamepad_controller[1]_tests.cmake")
-  include("C:/Users/oliwi/projects/punto-steering-control1/punto-steering-control/punto-steering-control/build/tests/test_gamepad_controller[1]_tests.cmake")
-else()
-  add_test(test_gamepad_controller_NOT_BUILT test_gamepad_controller_NOT_BUILT)
-endif()

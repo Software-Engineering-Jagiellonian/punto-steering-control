@@ -1,3 +1,0 @@
-C:/Users/oliwi/projects/punto-steering-control1/punto-steering-control/punto-steering-control/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
-C:/Users/oliwi/projects/punto-steering-control1/punto-steering-control/punto-steering-control/build/_deps/googletest-subbuild/CMakeFiles/ALL_BUILD.dir
-C:/Users/oliwi/projects/punto-steering-control1/punto-steering-control/punto-steering-control/build/_deps/googletest-subbuild/CMakeFiles/ZERO_CHECK.dir
