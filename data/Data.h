@@ -1,4 +1,6 @@
+#pragma once
+
 class Data {
-public:
-  void get();
+   public:
+	void get();
 };

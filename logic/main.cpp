@@ -1,5 +1,7 @@
-#include <iostream>
-#include "GamepadController.h"
-using namespace std;
+#pragma once
+#include "../io/IOCoordinator.h"
 
-int main() {}
+int main() {
+	IOCoorindator ioc;
+	ioc.start();
+}

@@ -3,7 +3,7 @@
 #include "../data/InputType.h"
 
 class Input {
-public:
-  Data get();
-  inputType type();
+   public:
+	Data get();
+	inputType type();
 };
