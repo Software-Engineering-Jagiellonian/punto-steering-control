@@ -37,4 +37,5 @@ void IOCoorindator::pushOutputs() {
 	for (Output* o : outputs) {
 		o->push(data);
 	}
+	freeMap(data);
 }
