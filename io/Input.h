@@ -4,6 +4,6 @@
 
 class Input {
    public:
-	Data get();
+	Data* get();
 	inputType type();
 };
