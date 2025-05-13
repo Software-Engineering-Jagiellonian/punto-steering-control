@@ -1,21 +1,24 @@
 #pragma once
 #include <map>
+#include <memory>
 #include <vector>
 
+#include "../io/Input.h"
+#include "../io/Output.h"
 #include "../logic/DataProcessor.h"
-#include "Input.h"
-#include "Output.h"
 
-class IOCoorindator {
+class IOCoordinator {
    public:
-	void start();
+	IOCoordinator(DataProcessor* dataProcessor);
+	void start() const;
 
    private:
+	DataProcessor* dataProcessor;
 	std::vector<Input*> inputs;
 	std::vector<Output*> outputs;
-	DataProcessor* processor;
+	DataProcessor* processor = nullptr;
 
-	std::map<inputType, Data*>* getInputs();
-	std::map<outputType, Data*>* process();
-	void pushOutputs();
+	std::unique_ptr<std::map<inputType, Data*>> getInputs() const;
+	std::unique_ptr<std::map<outputType, Data*>> process() const;
+	void pushOutputs() const;
 };

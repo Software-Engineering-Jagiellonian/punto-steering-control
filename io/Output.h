@@ -6,5 +6,5 @@
 
 class Output {
    public:
-	virtual void push(std::map<outputType, Data*>*) = 0;
+	virtual void push(std::map<outputType, Data*>*) const = 0;
 };

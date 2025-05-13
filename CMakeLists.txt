@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
-
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 project(punto-steering-control)
-
+message(STATUS "Project source dir: ${PROJECT_SOURCE_DIR}")
+include_directories(${PROJECT_SOURCE_DIR})
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
@@ -11,6 +11,7 @@ add_subdirectory(data)
 add_subdirectory(io)
 add_subdirectory(logic)
 add_subdirectory(tests)
+
 
 # Include FetchContent
 
@@ -47,6 +48,6 @@ target_link_libraries(standard_tests
 )
 
 include(GoogleTest)
-
+# target_include_directories(build PRIVATE ${PROJECT_SOURCE_DIR})
 gtest_discover_tests(standard_tests)
 
