@@ -1,12 +1,15 @@
 #pragma once
-#include "../ExtDevice.h"
 
-class GamepadController : public StatusInterface {
+#include "io/Input.h"
+
+class GamepadController : public Input {
    private:
-	unsigned char PS2buf[10];
-
+	int workingState = 1;
    public:
 	GamepadController();
-	void PS2_RWByte(unsigned char dat);
-	unsigned char Get_PS22DAT(unsigned char* buf);
+	void init() override;
+	int isWorking() override;
+	Data* get() const override;
+	inputType type() const override;
+
 };

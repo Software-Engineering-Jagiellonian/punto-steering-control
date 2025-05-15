@@ -17,6 +17,23 @@ add_subdirectory(tests)
 
 include(FetchContent)
 
+# Declare libgamepad
+FetchContent_Declare(
+  gamepad
+  GIT_REPOSITORY https://github.com/univrsal/libgamepad.git
+  GIT_TAG master  # You can pin a commit or use a tag like v0.1.0
+)
+
+# Make available
+FetchContent_MakeAvailable(gamepad)
+
+# Your executable
+add_executable(controller io/interface/GamepadController.cpp)
+
+# Link with libgamepadPR
+target_link_libraries(controller gamepad)
+
+
 # Fetch GoogleTest
 FetchContent_Declare(
   googletest
@@ -48,6 +65,12 @@ target_link_libraries(standard_tests
 )
 
 include(GoogleTest)
-# target_include_directories(build PRIVATE ${PROJECT_SOURCE_DIR})
 gtest_discover_tests(standard_tests)
 
+
+add_executable(main logic/main.cpp)
+# Link necessary libraries
+target_link_libraries(main
+  gamepad
+  nlohmann_json::nlohmann_json
+)
