@@ -1,0 +1,158 @@
+[
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/oliwi/wallslayers/punto-steering-control -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/json-src/include -isystem C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/googletest-src/googletest -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\standard_tests.dir\\tests\\main.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\tests\\main.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\tests\\main.cpp",
+  "output": "CMakeFiles\\standard_tests.dir\\tests\\main.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/oliwi/wallslayers/punto-steering-control -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/json-src/include -isystem C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/googletest-src/googletest -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\standard_tests.dir\\tests\\outtests.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\tests\\outtests.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\tests\\outtests.cpp",
+  "output": "CMakeFiles\\standard_tests.dir\\tests\\outtests.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/oliwi/wallslayers/punto-steering-control -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-build/include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./src -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/json-src/include -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\main.dir\\logic\\main.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\logic\\main.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\logic\\main.cpp",
+  "output": "CMakeFiles\\main.dir\\logic\\main.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -DUNICODE -D_UNICODE -IC:/Users/oliwi/wallslayers/punto-steering-control -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/src -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./src -g -DDEBUG -std=gnu++17 -fdiagnostics-color=always -o _deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\hook.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\hook.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\hook.cpp",
+  "output": "_deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\hook.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -DUNICODE -D_UNICODE -IC:/Users/oliwi/wallslayers/punto-steering-control -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/src -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./src -g -DDEBUG -std=gnu++17 -fdiagnostics-color=always -o _deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\log.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\log.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\log.cpp",
+  "output": "_deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\log.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -DUNICODE -D_UNICODE -IC:/Users/oliwi/wallslayers/punto-steering-control -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/src -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./src -g -DDEBUG -std=gnu++17 -fdiagnostics-color=always -o _deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\binding.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\binding.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\binding.cpp",
+  "output": "_deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\binding.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -DUNICODE -D_UNICODE -IC:/Users/oliwi/wallslayers/punto-steering-control -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/src -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./src -g -DDEBUG -std=gnu++17 -fdiagnostics-color=always -o _deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\binding-default.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\binding-default.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\binding-default.cpp",
+  "output": "_deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\binding-default.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -DUNICODE -D_UNICODE -IC:/Users/oliwi/wallslayers/punto-steering-control -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/src -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./src -g -DDEBUG -std=gnu++17 -fdiagnostics-color=always -o _deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\json11.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\json11.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\json11.cpp",
+  "output": "_deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\json11.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -DUNICODE -D_UNICODE -IC:/Users/oliwi/wallslayers/punto-steering-control -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/src -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./src -g -DDEBUG -std=gnu++17 -fdiagnostics-color=always -o _deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\device.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\device.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\device.cpp",
+  "output": "_deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\device.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -DUNICODE -D_UNICODE -IC:/Users/oliwi/wallslayers/punto-steering-control -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/src -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./src -g -DDEBUG -std=gnu++17 -fdiagnostics-color=always -o _deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\windows\\hook-xinput.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\windows\\hook-xinput.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\windows\\hook-xinput.cpp",
+  "output": "_deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\windows\\hook-xinput.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -DUNICODE -D_UNICODE -IC:/Users/oliwi/wallslayers/punto-steering-control -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/src -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./src -g -DDEBUG -std=gnu++17 -fdiagnostics-color=always -o _deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\windows\\hook-dinput.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\windows\\hook-dinput.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\windows\\hook-dinput.cpp",
+  "output": "_deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\windows\\hook-dinput.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -DUNICODE -D_UNICODE -IC:/Users/oliwi/wallslayers/punto-steering-control -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/src -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./src -g -DDEBUG -std=gnu++17 -fdiagnostics-color=always -o _deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\windows\\binding-dinput.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\windows\\binding-dinput.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\windows\\binding-dinput.cpp",
+  "output": "_deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\windows\\binding-dinput.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -DUNICODE -D_UNICODE -IC:/Users/oliwi/wallslayers/punto-steering-control -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/src -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./src -g -DDEBUG -std=gnu++17 -fdiagnostics-color=always -o _deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\windows\\binding-xinput.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\windows\\binding-xinput.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\windows\\binding-xinput.cpp",
+  "output": "_deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\windows\\binding-xinput.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -DUNICODE -D_UNICODE -IC:/Users/oliwi/wallslayers/punto-steering-control -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/src -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./src -g -DDEBUG -std=gnu++17 -fdiagnostics-color=always -o _deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\windows\\device-dinput.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\windows\\device-dinput.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\windows\\device-dinput.cpp",
+  "output": "_deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\windows\\device-dinput.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -DUNICODE -D_UNICODE -IC:/Users/oliwi/wallslayers/punto-steering-control -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/src -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./src -g -DDEBUG -std=gnu++17 -fdiagnostics-color=always -o _deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\windows\\device-xinput.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\windows\\device-xinput.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\src\\windows\\device-xinput.cpp",
+  "output": "_deps\\gamepad-build\\CMakeFiles\\gamepad.dir\\src\\windows\\device-xinput.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -DUNICODE -D_UNICODE -IC:/Users/oliwi/wallslayers/punto-steering-control -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./include -g -DDEBUG -std=gnu++17 -fdiagnostics-color=always -o _deps\\gamepad-build\\CMakeFiles\\libgamepad_tests.dir\\tests\\test.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\tests\\test.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\gamepad-src\\tests\\test.cpp",
+  "output": "_deps\\gamepad-build\\CMakeFiles\\libgamepad_tests.dir\\tests\\test.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/oliwi/wallslayers/punto-steering-control -g -std=gnu++17 -fdiagnostics-color=always -o data\\CMakeFiles\\data.dir\\InputType.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\data\\InputType.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\data\\InputType.cpp",
+  "output": "data\\CMakeFiles\\data.dir\\InputType.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/oliwi/wallslayers/punto-steering-control -g -std=gnu++17 -fdiagnostics-color=always -o data\\CMakeFiles\\data.dir\\OutputType.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\data\\OutputType.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\data\\OutputType.cpp",
+  "output": "data\\CMakeFiles\\data.dir\\OutputType.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/oliwi/wallslayers/punto-steering-control -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-build/include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-src/./src -g -std=gnu++17 -fdiagnostics-color=always -o io\\interface\\CMakeFiles\\interface_lib.dir\\GamepadController.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\io\\interface\\GamepadController.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\io\\interface\\GamepadController.cpp",
+  "output": "io\\interface\\CMakeFiles\\interface_lib.dir\\GamepadController.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/oliwi/wallslayers/punto-steering-control -IC:/Users/oliwi/wallslayers/punto-steering-control/logic -g -std=gnu++17 -fdiagnostics-color=always -o logic\\CMakeFiles\\logic_lib.dir\\GamepadControlProcessor.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\logic\\GamepadControlProcessor.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\logic\\GamepadControlProcessor.cpp",
+  "output": "logic\\CMakeFiles\\logic_lib.dir\\GamepadControlProcessor.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/oliwi/wallslayers/punto-steering-control -g -std=gnu++17 -fdiagnostics-color=always -o tests\\CMakeFiles\\tests.dir\\outtests.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\tests\\outtests.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\tests\\outtests.cpp",
+  "output": "tests\\CMakeFiles\\tests.dir\\outtests.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/oliwi/wallslayers/punto-steering-control -g -std=gnu++17 -fdiagnostics-color=always -o tests\\CMakeFiles\\tests.dir\\main.cpp.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\tests\\main.cpp",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\tests\\main.cpp",
+  "output": "tests\\CMakeFiles\\tests.dir\\main.cpp.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/oliwi/wallslayers/punto-steering-control -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/googletest-src/googlemock/include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/googletest-src/googlemock -isystem C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/googletest-src/googletest -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps\\googletest-build\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "output": "_deps\\googletest-build\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -isystem C:/Users/oliwi/wallslayers/punto-steering-control -isystem C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/googletest-src/googlemock/include -isystem C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/googletest-src/googlemock -isystem C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/googletest-src/googletest -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps\\googletest-build\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
+  "output": "_deps\\googletest-build\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/oliwi/wallslayers/punto-steering-control -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/googletest-src/googletest/include -IC:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/googletest-src/googletest -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps\\googletest-build\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "output": "_deps\\googletest-build\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj"
+},
+{
+  "directory": "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.5\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/oliwi/wallslayers/punto-steering-control -isystem C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/googletest-src/googletest -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps\\googletest-build\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
+  "file": "C:\\Users\\oliwi\\wallslayers\\punto-steering-control\\cmake-build-debug\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
+  "output": "_deps\\googletest-build\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj"
+}
+]

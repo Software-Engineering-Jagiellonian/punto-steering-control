@@ -1,8 +1,8 @@
 #include "GamepadController.h"
-
 #include <algorithm>
-#include <cstdio>
 #include <libgamepad.hpp>
+#include <cstdio>
+#include <memory>
 
 GamepadController::GamepadController() {
 }

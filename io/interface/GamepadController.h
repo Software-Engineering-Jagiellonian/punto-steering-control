@@ -1,5 +1,4 @@
 #pragma once
-
 #include "io/Input.h"
 
 class GamepadController : public Input {

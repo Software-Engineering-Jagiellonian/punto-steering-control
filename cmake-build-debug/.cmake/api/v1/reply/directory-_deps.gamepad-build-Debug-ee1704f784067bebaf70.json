@@ -1,0 +1,127 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/gamepad-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 106,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 151,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/gamepad-build/libgamepad.a"
+			],
+			"targetId" : "gamepad_static::@2e0a17c524402fff685a",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "gamepad_static::@2e0a17c524402fff685a",
+				"index" : 2
+			},
+			"destination" : "lib",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/gamepad-src/./include/libgamepad.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/gamepad",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/gamepad-src/./include/gamepad/binding.hpp",
+				"cmake-build-debug/_deps/gamepad-src/./include/gamepad/binding-dinput.hpp",
+				"cmake-build-debug/_deps/gamepad-src/./include/gamepad/binding-xinput.hpp",
+				"cmake-build-debug/_deps/gamepad-src/./include/gamepad/binding-linux.hpp",
+				"cmake-build-debug/_deps/gamepad-src/./include/gamepad/config.h",
+				"cmake-build-debug/_deps/gamepad-src/./include/gamepad/device.hpp",
+				"cmake-build-debug/_deps/gamepad-src/./include/gamepad/hook.hpp",
+				"cmake-build-debug/_deps/gamepad-src/./include/gamepad/hook-dinput.hpp",
+				"cmake-build-debug/_deps/gamepad-src/./include/gamepad/hook-linux.hpp",
+				"cmake-build-debug/_deps/gamepad-src/./include/gamepad/hook-xinput.hpp",
+				"cmake-build-debug/_deps/gamepad-src/./include/gamepad/log.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/gamepad-build/libgamepad_tests.exe"
+			],
+			"targetId" : "libgamepad_tests::@2e0a17c524402fff685a",
+			"targetIndex" : 8,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "libgamepad_tests::@2e0a17c524402fff685a",
+				"index" : 8
+			},
+			"destination" : "bin",
+			"type" : "cxxModuleBmi"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/gamepad-build",
+		"source" : "cmake-build-debug/_deps/gamepad-src"
+	}
+}
