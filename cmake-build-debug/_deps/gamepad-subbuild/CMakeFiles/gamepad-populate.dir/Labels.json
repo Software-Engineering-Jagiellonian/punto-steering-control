@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-subbuild/CMakeFiles/gamepad-populate"
+		},
+		{
+			"file" : "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-subbuild/CMakeFiles/gamepad-populate.rule"
+		},
+		{
+			"file" : "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-subbuild/CMakeFiles/gamepad-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-subbuild/gamepad-populate-prefix/src/gamepad-populate-stamp/gamepad-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-subbuild/gamepad-populate-prefix/src/gamepad-populate-stamp/gamepad-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-subbuild/gamepad-populate-prefix/src/gamepad-populate-stamp/gamepad-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-subbuild/gamepad-populate-prefix/src/gamepad-populate-stamp/gamepad-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-subbuild/gamepad-populate-prefix/src/gamepad-populate-stamp/gamepad-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-subbuild/gamepad-populate-prefix/src/gamepad-populate-stamp/gamepad-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-subbuild/gamepad-populate-prefix/src/gamepad-populate-stamp/gamepad-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-subbuild/gamepad-populate-prefix/src/gamepad-populate-stamp/gamepad-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gamepad-populate"
+		],
+		"name" : "gamepad-populate"
+	}
+}

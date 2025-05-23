@@ -1,0 +1,3 @@
+C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-subbuild/CMakeFiles/gamepad-populate.dir
+C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/_deps/gamepad-subbuild/CMakeFiles/rebuild_cache.dir

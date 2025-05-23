@@ -1,0 +1,189 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/gamepad-build/libgamepad.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"add_compile_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/gamepad-src/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 164,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "gamepad::@2e0a17c524402fff685a"
+		}
+	],
+	"id" : "gamepad_static::@2e0a17c524402fff685a",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/punto-steering-control"
+		}
+	},
+	"name" : "gamepad_static",
+	"nameOnDisk" : "libgamepad.a",
+	"paths" : 
+	{
+		"build" : "_deps/gamepad-build",
+		"source" : "cmake-build-debug/_deps/gamepad-src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/gamepad-build/CMakeFiles/gamepad.dir/src/hook.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/gamepad-build/CMakeFiles/gamepad.dir/src/log.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/gamepad-build/CMakeFiles/gamepad.dir/src/binding.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/gamepad-build/CMakeFiles/gamepad.dir/src/binding-default.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/gamepad-build/CMakeFiles/gamepad.dir/src/json11.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/gamepad-build/CMakeFiles/gamepad.dir/src/device.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/gamepad-build/CMakeFiles/gamepad.dir/src/windows/hook-xinput.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/gamepad-build/CMakeFiles/gamepad.dir/src/windows/hook-dinput.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/gamepad-build/CMakeFiles/gamepad.dir/src/windows/binding-dinput.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/gamepad-build/CMakeFiles/gamepad.dir/src/windows/binding-xinput.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/gamepad-build/CMakeFiles/gamepad.dir/src/windows/device-dinput.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/gamepad-build/CMakeFiles/gamepad.dir/src/windows/device-xinput.cpp.obj",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
