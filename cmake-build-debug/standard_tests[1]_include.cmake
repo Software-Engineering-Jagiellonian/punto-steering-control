@@ -1,5 +1,0 @@
-if(EXISTS "C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/standard_tests[1]_tests.cmake")
-  include("C:/Users/oliwi/wallslayers/punto-steering-control/cmake-build-debug/standard_tests[1]_tests.cmake")
-else()
-  add_test(standard_tests_NOT_BUILT standard_tests_NOT_BUILT)
-endif()

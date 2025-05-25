@@ -64,5 +64,7 @@ $RECYCLE.BIN/
 build/
 .idea/
 .vscode/
+cmake-build-release/
+cmake-build-debug/
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,windows

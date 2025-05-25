@@ -4,17 +4,29 @@
 #include <cstdio>
 #include <memory>
 
-GamepadController::GamepadController() {
-}
+GamepadController::GamepadController() = default;
+
 void GamepadController::init() {
 	std::shared_ptr<gamepad::hook> hook = gamepad::hook::make();
-	auto axis_handler = [](std::shared_ptr<gamepad::device> dev) {
-		printf("Received axis event: Native id: %i, Virtual id: 0x%X (%i) val: %f", dev->last_axis_event()->native_id,
-			   dev->last_axis_event()->vc, dev->last_axis_event()->vc, dev->last_axis_event()->virtual_value);
+	hook->set_plug_and_play(true, gamepad::ms(3000));
+	auto axis_handler = [this](std::shared_ptr<gamepad::device> dev) {
+
+		auto* event = dev->last_axis_event();
+		switch (event->vc) {
+			case gamepad::axis::LEFT_STICK_X:
+				this->axisX = event->virtual_value;
+				break;
+			case gamepad::axis::LEFT_STICK_Y:
+				this->axisY = event->virtual_value;
+				break;
+			default:
+				break;
+		}
+		// this->print();
 	};
 
 	auto connect_handler = [this](std::shared_ptr<gamepad::device> dev) {
-		printf("Connected");
+		printf("Connected \n");
 		this->workingState = 0;
 		if (!dev->has_binding()) {
 			printf("Binding");
@@ -31,12 +43,9 @@ void GamepadController::init() {
 	hook->set_disconnect_event_handler(disconnect_handler);
 
 	if (!hook->start()) {
-		printf("Couldn't start gamepad hook");
+		printf("Couldn't start gamepad hook \n");
 		this->workingState = 2;
 	}
-
-	while (true)
-		std::this_thread::sleep_for(gamepad::ms(50));
 }
 int GamepadController::isWorking() {
 	return this->workingState;
@@ -46,4 +55,8 @@ Data* GamepadController::get() const {
 }
 inputType GamepadController::type() const {
 	return inputType::Gamepad;
+}
+
+void GamepadController::print() const {
+	printf("x: %f y: %f \n", this->axisX, this->axisY);
 }
