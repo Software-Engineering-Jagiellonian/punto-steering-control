@@ -1,2 +1,2 @@
 #pragma once
-enum outputType { WheelTurn };
+enum outputType { WheelTurn, GamepadOutX, GamepadOutY };

@@ -12,6 +12,7 @@ void GamepadController::init() {
 	auto axis_handler = [this](std::shared_ptr<gamepad::device> dev) {
 
 		auto* event = dev->last_axis_event();
+
 		switch (event->vc) {
 			case gamepad::axis::LEFT_STICK_X:
 				this->axisX = event->virtual_value;
@@ -46,15 +47,21 @@ void GamepadController::init() {
 		printf("Couldn't start gamepad hook \n");
 		this->workingState = 2;
 	}
+
+	while (true) {
+		std::this_thread::sleep_for(gamepad::ms(50));
+	}
 }
 int GamepadController::isWorking() {
 	return this->workingState;
 }
-Data* GamepadController::get() const {
-	return nullptr;
+
+float GamepadController::getAxisX() const {
+	return this->axisX;
 }
-inputType GamepadController::type() const {
-	return inputType::Gamepad;
+
+float GamepadController::getAxisY() const {
+	return this->axisY;
 }
 
 void GamepadController::print() const {

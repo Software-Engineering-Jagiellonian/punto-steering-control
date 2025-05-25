@@ -1,31 +1,35 @@
-#pragma once
-
 #include "IOCoordinator.h"
-#include "Input.h"
 
+#include <iostream>
 #include <map>
 #include <memory>
 
-template <typename T1, typename T2>
-void freeMap(std::unique_ptr<std::map<T1, T2*>>& map) {
-	for (auto& [key, ptr] : *map) {
-		delete ptr;
+#include "Input.h"
+
+IOCoordinator::IOCoordinator(DataProcessor* dataProcessor) : processor(dataProcessor) {}
+
+IOCoordinator::~IOCoordinator() {
+	for (auto* input : inputs) {
+		delete input;
 	}
-	map.reset();
+	for (auto* output : outputs) {
+		delete output;
+	}
+	delete processor;
 }
 
-IOCoordinator::IOCoordinator(DataProcessor* dataProcessor) : dataProcessor() {}
-
 void IOCoordinator::start() const {
+
 	for (auto* input : inputs) {
 		input->init();
 	}
-
 	int checksum = 0;
 	do {
+		checksum = 0;
 		for (auto* input : inputs) {
 			checksum += input->isWorking();
 		}
+		std::cout << checksum << std::endl;
 	} while (checksum > 0);
 
 	if (processor == nullptr) {
@@ -37,27 +41,34 @@ void IOCoordinator::start() const {
 	}
 }
 
-std::unique_ptr<std::map<inputType, Data*>> IOCoordinator::getInputs() const {
-	auto map = std::make_unique<std::map<inputType, Data*>>();
+std::unique_ptr<std::map<inputType, Data>> IOCoordinator::getInputs() const {
+	auto map = std::make_unique<std::map<inputType, Data>>();
 	for (const auto* input : inputs) {
-		Data* data = input->get();
+		Data data = input->get();
 		inputType type = input->type();
 		map->emplace(type, data);
 	}
 	return map;
 }
 
-std::unique_ptr<std::map<outputType, Data*>> IOCoordinator::process() const {
+std::unique_ptr<std::map<outputType, Data>> IOCoordinator::process() const {
 	auto inputsData = getInputs();
-	auto result = std::unique_ptr<std::map<outputType, Data*>>(processor->process(inputsData.get()));
-	freeMap(inputsData);
+	auto result = std::unique_ptr<std::map<outputType, Data>>(processor->process(inputsData.get()));
 	return result;
 }
 
 void IOCoordinator::pushOutputs() const {
 	auto data = process();
-	for (const auto* output : outputs) {
+	for (auto* output : outputs) {
 		output->push(data.get());
 	}
-	freeMap(data);
+}
+
+
+void IOCoordinator::addInputObject(Input* input) {
+	this->inputs.push_back(input);
+}
+
+void IOCoordinator::addOutputObject(Output* output) {
+	this->outputs.push_back(output);
 }

@@ -1,7 +1,7 @@
 #pragma once
 #include "io/Input.h"
 
-class GamepadController : public Input {
+class GamepadController {
    private:
 	int workingState = 1;
 
@@ -9,9 +9,9 @@ class GamepadController : public Input {
 	float axisY = 0;
    public:
 	GamepadController();
-	void init() override;
-	int isWorking() override;
-	Data* get() const override;
-	inputType type() const override;
+	void init();
+	int isWorking();
+	float getAxisX() const;
+	float getAxisY() const;
 	void print() const;
 };

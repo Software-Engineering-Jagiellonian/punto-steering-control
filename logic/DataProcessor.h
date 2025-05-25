@@ -8,5 +8,5 @@
 class DataProcessor {
    public:
 	virtual ~DataProcessor() = default;
-	virtual std::map<outputType, Data*>* process(std::map<inputType, Data*>*) = 0;
+	virtual std::map<outputType, Data>* process(std::map<inputType, Data>*) = 0;
 };

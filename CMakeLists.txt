@@ -59,7 +59,10 @@ add_executable(main logic/main.cpp)
 
 # Link main with interface_lib, gamepad and json
 target_link_libraries(main
+        io_lib
         interface_lib
+        test_lib
+        logic_lib
         gamepad
         nlohmann_json::nlohmann_json
 )

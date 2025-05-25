@@ -5,6 +5,6 @@
 
 class Input : public StatusInterface {
    public:
-	virtual Data* get() const =0;
+	virtual Data get() const =0;
 	virtual inputType type() const =0;
 };

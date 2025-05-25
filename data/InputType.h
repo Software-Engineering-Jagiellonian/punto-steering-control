@@ -1,2 +1,3 @@
 #pragma once
-enum inputType { Gamepad };
+enum inputType { Gamepad,
+				 GamepadInX, GamepadInY};

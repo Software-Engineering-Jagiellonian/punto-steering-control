@@ -1,6 +1,4 @@
 #pragma once
+#include <variant>
 
-class Data {
-   public:
-	void get();
-};
+using Data = std::variant<int, float>;
