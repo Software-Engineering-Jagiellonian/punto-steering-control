@@ -44,6 +44,9 @@ enable_testing()
 # Tests executable
 add_executable(standard_tests
         tests/main.cpp
+        logic/GamepadControlProcessor.cpp
+        io/IOCoordinator.cpp
+        tests/TestIOCoordinator.cpp
         tests/outtests.cpp
 )
 target_link_libraries(standard_tests

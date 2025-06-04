@@ -20,6 +20,7 @@ class IOCoordinator {
 	std::vector<Output*> outputs;
 	DataProcessor* processor = nullptr;
 
+public:
 	std::unique_ptr<std::map<inputType, Data>> getInputs() const;
 	std::unique_ptr<std::map<outputType, Data>> process() const;
 	void pushOutputs() const;

@@ -1,4 +1,4 @@
-#include "GamepadControlProcessor.h";
+#include "GamepadControlProcessor.h"
 
 std::map<outputType, Data>* GamepadControlProcessor::process(std::map<inputType, Data>* input) {
 	auto* output = new std::map<outputType, Data>();
